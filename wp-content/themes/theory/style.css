@@ -1,0 +1,62 @@
+/*
+Theme Name: Theory
+Description: 
+Author: David
+Author URI: http://theory.test/
+Version: 0.1.0
+Tags: minimalist
+*/
+
+
+.row {
+    padding: 4rem;
+}
+
+.home-card:not(:last-child) {
+    border-right: 1px solid #b6bfe2;
+}
+@media screen and (max-width: 767px) {
+    .home-card:not(:last-child) { 
+        border-right: none;
+    }
+}
+a.btn.btn-info {
+    background-color: #6692c8;
+    text-decoration: none;
+}
+h4.card-title {
+    color: #6692c8;
+    font-weight: bold;
+}
+
+.box.person h3 {
+    font-size: 2rem;
+    transition: all .6s;
+}
+.box.person:hover h3 {
+    transform: translateY(-8rem);
+    font-size: 2rem;
+    background-color: rgba(182, 191, 226, .3);
+}
+.box.person .image.round img {
+    transition: all .6s;
+}
+.box.person:hover .image.round img {
+    transform: rotateY(-180deg);
+}
+.inner-custom {
+    max-width: 30em;
+    margin: 0 auto;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    background-color: #6692c8;
+    margin: 0 auto;
+    display: block;
+}
+input.wpcf7-form-control.wpcf7-submit:hover {
+    background-color: #b6bfe2;
+}
+.textarea { 
+    width: 100%; 
+    height: 75px 
+}
